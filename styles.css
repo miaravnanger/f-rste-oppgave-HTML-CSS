@@ -1,40 +1,55 @@
 body {
+  background-color: #eed1f0;
   text-align: center;
-	display: flex;
-	justify-content: center;
-	padding: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
 
 .poster {
-	width: 700px;
-	position: relative;
-	margin: 0;
-	background-image: url(./images/plantekatter.png);
-	background-size: cover;
+  width: 600px;
+  height: 850px;
+  background-image: url(./images/plantekatter.png);
+  background-size: cover;
+  background-position: center;
 }
 
 header {
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #a6238c;
-	height: 100px;
-	font-family: titleFont;
-	font-size: 30px;
-	
+  height: 100px;
+}
+ h1{
+ font-family: titleFont;
+  font-size: 60px;
+	margin: 0px
+}
+p{
+	font-family: lineUpFont;
+	font-weight: 900;
+font-size: 20px;
+margin: 0;
 }
 
 .lineUp {
   font-family: lineUpFont;
-  width: 270px;
+  width: 200px;
   float: left;
   padding: 20px;
+  margin-left: 2px;
 }
 
 .lineUp ul {
   list-style-type: none;
   font-weight: 900;
+  background-color: #eed1f0;
+  padding: 10px;
 }
 
 .lineUp li {
-  margin-bottom: 10px;
   line-height: 1;
 }
 
@@ -42,6 +57,13 @@ header {
   font-family: titleFont;
   font-size: 40px;
 }
+
+footer {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
 
 
 @font-face {
