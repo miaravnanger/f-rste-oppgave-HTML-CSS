@@ -6,12 +6,19 @@ body {
 }
 
 .poster {
-	background: url(./images/plantekatter.png)contain 
-;
 	width: 700px;
+	position: relative;
+	margin: 0;
+	background-image: url(./images/plantekatter.png);
+	background-size: cover;
 }
+
 header {
   background-color: #a6238c;
+	height: 100px;
+	font-family: titleFont;
+	font-size: 30px;
+	
 }
 
 .lineUp {
