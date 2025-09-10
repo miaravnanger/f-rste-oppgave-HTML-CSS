@@ -16,22 +16,22 @@ body {
 
 header {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #a6238c;
   height: 100px;
 }
- h1{
- font-family: titleFont;
+h1 {
+  font-family: titleFont;
   font-size: 60px;
-	margin: 0px
+  margin: 0px;
 }
-p{
-	font-family: lineUpFont;
-	font-weight: 900;
-font-size: 20px;
-margin: 0;
+p {
+  font-family: lineUpFont;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0;
 }
 
 .lineUp {
@@ -65,16 +65,14 @@ margin: 0;
   margin: 10px;
 }
 
-.info p{
+.info p {
   font-size: 15px;
 }
 
 footer {
-display: flex;
-float: right;
+  display: flex;
+  float: right;
 }
-
-
 
 @font-face {
   font-family: titleFont;
