@@ -1,3 +1,40 @@
 body {
   text-align: center;
 }
+
+header {
+  background-color: #a6238c;
+}
+
+.lineUp {
+  font-family: lineUpFont;
+  width: 270px;
+  float: left;
+  padding: 20px;
+}
+
+.lineUp ul {
+  list-style-type: none;
+  font-weight: 900;
+}
+
+.lineUp li {
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.lineUp .lineUpTitle {
+  font-family: titleFont;
+  font-size: 40px;
+}
+
+
+@font-face {
+  font-family: titleFont;
+  src: url(./Fonts/title-font.ttf);
+}
+
+@font-face {
+  font-family: lineUpFont;
+  src: url(./Fonts/lineup-font.ttf);
+}
