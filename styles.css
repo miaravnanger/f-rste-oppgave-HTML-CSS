@@ -78,7 +78,7 @@ p {
 .info p {
   font-size: 15px;
 }
-img {
+.img img {
   max-height: 10svh;
   width: auto;
 }
