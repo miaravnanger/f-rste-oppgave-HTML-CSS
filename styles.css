@@ -1,18 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #eed1f0;
   text-align: center;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  height: 100svh;
+  width: 100svw;
 }
 
 .poster {
-  width: 600px;
-  height: 850px;
   background-image: url(./images/plantekatter.png);
   background-size: cover;
   background-position: center;
   position: relative;
+  min-height: 100vh;
 }
 
 #contentWrap {
