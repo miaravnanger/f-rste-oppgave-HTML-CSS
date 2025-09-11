@@ -12,6 +12,11 @@ body {
   background-image: url(./images/plantekatter.png);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+#contentWrap {
+  padding-bottom: 2.5rem;
 }
 
 header {
@@ -22,11 +27,13 @@ header {
   background-color: #a6238c;
   height: 100px;
 }
+
 h1 {
   font-family: titleFont;
   font-size: 60px;
   margin: 0px;
 }
+
 p {
   font-family: lineUpFont;
   font-weight: 900;
@@ -70,8 +77,10 @@ p {
 }
 
 footer {
-  display: flex;
-  float: right;
+  background-color: #a6238c;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 @font-face {
