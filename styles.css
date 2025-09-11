@@ -78,13 +78,9 @@ p {
 .info p {
   font-size: 15px;
 }
-.image {
-  height: 10px;
-  width: 100px;
-}
 img {
-  width: 100%;
-  height: auto;
+  height: 100px;
+  width: 100px;
 }
 footer {
   background-color: #a6238c;
