@@ -9,7 +9,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  height: 100svh; 
+  height: 100svh;
   width: 100svw;
 }
 
@@ -19,10 +19,6 @@ body {
   background-position: center;
   position: relative;
   min-height: 100vh;
-}
-
-#contentWrap {
-  padding-bottom: 2.5rem;
 }
 
 header {
@@ -66,7 +62,7 @@ p {
   line-height: 1;
 }
 
-.lineUp .lineUpTitle {
+.lineUpTitle {
   font-family: titleFont;
   font-size: 40px;
 }
@@ -76,17 +72,22 @@ p {
   padding: 15px;
   background-color: #eed1f0;
   margin: 10px;
+  max-width: 200px;
 }
 
 .info p {
   font-size: 15px;
 }
-
+img {
+  max-height: 100px;
+  width: auto;
+}
 footer {
   background-color: #a6238c;
   position: absolute;
   bottom: 0;
-  height: 2.5rem;
+  height: 75px;
+  padding-top: 10px;
 }
 
 @font-face {
